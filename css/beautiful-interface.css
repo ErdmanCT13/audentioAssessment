@@ -1,0 +1,22 @@
+.content-container--interface{
+    height: fit-content;
+    width: 100%;
+    background: var(--white);
+    color: var(--black);
+    padding: 120px 10vw;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content-container--interface .content-item__header{
+    color: var(--black)
+}
+.content-container--interface .content-item__header--secondary{
+    color: var(--blue);
+    font-weight: var(--font-regular);
+}
+.content-container--interface .content-item__body{
+    color: var(--black)
+}

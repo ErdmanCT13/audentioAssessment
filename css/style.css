@@ -1,0 +1,96 @@
+/* 
+    primary: hsl(210,65%,47%)
+    primary-border: hsl(210,65%,80%)
+    primary-font: hsl(0, 0%, 100%)
+    secondary: hsl(199,14%,95%)
+    secondary-border: hsl(199,14%,60%)
+    tertiary: hsl(0, 0%, 100%)
+    tertiary-border: hsl(0, 0%, 90%)
+    tertiary-font: hsl(0, 0%, 0%)
+
+*/
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+:root {
+    --white: hsl(0, 0%, 100%);
+    --blue: #2a7ddb;
+    --light-blue: hsl(210,65%,60%);
+    --even-whiter-blue: hsl(210,65%,83%);
+    --off-white: hsl(199,14%,95%);
+    --black: hsl(0, 0%, 0%);
+    --large-font: 35px;
+    --medium-font: 25px;
+    --medium-small-font: 20px;
+    --small-font: 15px;
+    --webkit-snow-gradient: -webkit-linear-gradient(to right top, #18ade7, #00a2e6, #0096e4, #0d8ae0, #2a7ddb);  /* Chrome 10-25, Safari 5.1-6 */
+    --snow-gradient: linear-gradient(to right top, #18ade7, #00a2e6, #0096e4, #0d8ae0, #2a7ddb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    --snow-gradient-fallback: #00B4DB;
+    --font-bold: 600;
+    --font-light: 200;
+    --font-regular: 400;
+    --regular-margin-top: 30px;
+    --regular-margin-bottom: 30px;
+
+    --primary-bg-color: hsl(210,65%,47%);
+    --secondary-bg-color: hsl(199,14%,95%);
+    --tertiary-bg-color: hsl(0, 0%, 100%);
+    --primary-border-color: hsl(0, 0%, 100%);
+    --secondary-border-color: hsl(0, 0%, 90%);
+    --tertiary-border-color: hsl(210,65%,47%);
+    --primary-font-color: hsl(0, 0%, 100%);
+    --secondary-font-color: hsl(0, 0%, 0%);
+    --tertiary-font-color: hsl(0, 0%, 0%);
+
+}
+
+
+.product-intro{
+    height: 100vh;
+    width: 100%;
+    background: var(--blue);
+    color: var(--white);
+    padding: 0 10vw;
+    box-sizing: border-box;
+}
+.product-features{
+    height: fit-content;
+    width: 100%;
+    background: var(--secondary-bg-color);
+    color: var(--secondary-font-color);
+    padding: 0 10vw;
+    box-sizing: border-box;
+}
+.product-instructions{
+    height: 100vh;
+    width: 100%;
+    background: var(--secondary-bg-color);
+    color: var(--tertiary-font-color);
+    padding: 0 10vw;
+    box-sizing: border-box;
+}
+.product-interface{
+    height: 100vh;
+    background: var(--primary-bg-color);
+    color: var(--primary-font-color);
+    padding: 0 10vw;
+    box-sizing: border-box;
+}
+
+.background-overlay{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: auto;
+    width: 100%;
+    z-index: 0;
+}
+
+.primary-image{
+    height: auto;
+    width: 40%;
+    margin-right: 60px;
+}

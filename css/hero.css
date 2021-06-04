@@ -1,0 +1,11 @@
+.content-container--hero{
+    height: 100vh;
+    width: 100%;
+    background: var(--snow-gradient);
+    color: var(--white);
+    padding: 0 10vw;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
